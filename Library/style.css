@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #444444;
+    background: #EBEBEB
+}
+
+a {
+	text-decoration: none;
+	color: #96AE3E;
+}
+
+ul {
+	list-style: none;
+}
+
+/*формы регистрации*/
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 400 px;
+}
+
+input {
+	margin: 10px 0;
+	padding: 10px;
+	border: unset;
+	border-bottom: 2px solid #e3e3e3;
+	outline: none;
+}
+
+button {
+
+}
+
+
+.form_reg {
+	box-sizing: border-box;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form_reg a {
+	color: #7c9ab7;
+}
+
+
+/*формы регистрации*/
+
+
+/*Профиль Выход*/
+.form_reg .logout {
+	text-align: right;
+	color: #b7625c;
+}
+/*Профиль Выход*/
+
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	overflow: hidden;
+}
+
+.header a.logo {
+	float: center;
+	padding: 60px 0 10px 30px;
+	font-size: 49px;
+	font-weight: 900;
+	line-height: 1.8em;
+	letter-spacing: -1px;
+	color: #654321;
+}
+
+.header p {
+	float: right;
+	padding: 80px 30px 0 0;
+	font-size: 16px;
+	line-height: 1.2em;
+	text-transform: lowercase;
+	color: #CEB6A4;
+}
+
+.main {
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+
+.content {
+	width: 928px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+/*отображение контента*/
+.show h1{
+	font: 35px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #654321;
+
+}
+
+.show p{
+	font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #000000;
+    word-wrap: break-word; /* Перенос слов */
+
+}
+
+.show em{
+	font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #000000;
+    background: #EBEBEB
+}
+
+.show image{
+
+}
+
+/*отображение контента*/
+
+.mesage {
+	border: 2px solid #ffa908;
+	border-radius: 3px;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+}
+/* главная менюшка */
+
+nav ul {
+	display: flex;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+nav ul li {
+	flex: 1;
+}
+
+nav ul li a {
+	display: block;
+	width: 100%;
+	background: #654321;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+nav ul li a:hover {
+	background: #1B3039;
+}
+
+nav ul li .active {
+	background: #1B3039;
+}
+
+/* главная менюшка */
+
+
+
+
+/*footer*/
+footer {
+	text-align: center;
+	padding: 30px 15px;
+	background: #fff;
+}
+
+footer p {
+	background: #D1E4A7;
+	padding: 30px 15px;
+}
